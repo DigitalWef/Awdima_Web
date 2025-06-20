@@ -1,0 +1,429 @@
+.grid-1column {
+    margin: 0 -25px;
+    .grid-sizer, .isotop-item {
+        width: 100%;
+        padding: 0 25px;
+    }
+}
+.grid-2column {
+    margin: 0 -25px;
+    .grid-sizer, .isotop-item {
+        width: 50%;
+        padding: 0 25px;
+    }
+    &.xl {
+        margin: 0 -50px;
+        .grid-sizer, .isotop-item {
+            padding: 0 50px;
+        }
+    }
+}
+.grid-3column {
+    margin: 0 -15px;
+    .grid-sizer, .isotop-item {
+        width: 33.3333%;
+        padding: 0 15px;
+    }
+}
+// Project Section One
+.project-section-one {
+    background: $color-three;
+    .shape_01 {
+        left: 6%;
+        top:7%;
+        max-width: 3%;
+        animation: rotatedTwo 95s infinite linear;
+    }
+    .shape_02 {
+        right: 5%;
+        top:6%;
+        max-width: 4%;
+        animation: Fadein 2s infinite linear;
+    }
+    &.bg-two {
+        background: #9BFFFF;
+    }
+    .section-btn {
+        position: absolute;
+        right: 0;
+        top:55px;
+    }
+}
+
+// Portfolio Block One
+.portfolio-block-one {
+    border: 2px solid #000;
+    border-radius: 175px;
+    padding: 40px 82px 55px;
+    .numb {
+        font-size: 50px;
+        font-weight: 600;
+        color: #000;
+        border-bottom: 1px solid #000;
+        line-height: 1.3em;
+        margin-bottom: 35px;
+    }
+    .cta-btn {
+        width: 98px;
+        height: 98px;
+        padding: 15px;
+        border: 2px solid #fff;
+        background: #000;
+        &:hover {
+            img {
+                transform: scale(0.8);
+            }
+        }
+    }
+    .title {
+        width: calc(100% - 105px);
+        .tag {
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            display: inline-block;
+            line-height: 23px;
+            padding: 0 20px;
+            border-radius: 30px;
+            background: #000;
+            margin-bottom: 18px;
+        }
+        h4 {
+            margin: 0;
+            a {
+                font-size: 36px;
+                line-height: 1.1666em;
+                font-weight: 600;
+                color: #000;
+                text-transform: capitalize;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .project-img {
+        width: 425px;
+        height: 425px;
+        margin: 50px auto 0;
+    }
+    &.version-two {
+        background: #fff;
+        border-radius: 170px;
+        position: relative;
+        padding: 25px 25px 25px 85px;
+        .numb{
+            max-width: 323px;
+        }
+        .cta-btn {
+            margin-top: -30px;
+        }
+        .project-img2 {
+            border-radius: 0 170px 170px 0;
+        }
+    }
+}
+// Portfolio Block Two
+.portfolio-block-two { 
+    .media-wrapper {
+        border: 10px solid #000;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        .hover-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left: 0;
+            background: rgba(#000, $alpha: 0.7);
+            opacity: 0;
+      
+            .expend {
+              width: 60px;
+              height: 60px;
+              font-size: 40px;
+              background: #fff;
+              &:hover {
+                background: $color-one;
+                color: #000;
+              }
+            }
+        }
+    }
+    .project-title {
+        border-bottom: 2px solid #000;
+        padding: 18px 10px 18px 0;
+        .title {
+            font-size: 26px;
+            font-weight: 600;
+            margin: 0;
+            width: calc(100% - 60px);
+            text-transform: capitalize;
+            &:hover a {
+                text-decoration: underline;
+            }
+        }
+        .icon {
+            width: 52px;
+            height: 52px;
+            background: #000;
+            &:hover {
+                background: $color-one;
+            }
+        }
+    }
+    &:hover {
+        .media-wrapper {
+          .media-img {
+            transform: scale(1.1) rotate(5deg);
+          }
+          .hover-overlay {
+            opacity: 1;
+          }
+        }
+    }
+}
+
+// Portfolio Block Three
+.portfolio-block-three {  
+    background: #000;
+    padding: 10px;
+    border-radius: 10px;
+    .media-wrapper {
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 300px;
+        height: 100%;
+        .hover-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left: 0;
+            background: rgba(#000, $alpha: 0.7);
+            opacity: 0;
+            .expend {
+              width: 60px;
+              height: 60px;
+              font-size: 40px;
+              background: #fff;
+              &:hover {
+                background: $color-one;
+                color: #000;
+              }
+            }
+        }
+    }
+
+    .project-text {
+        border-radius: 10px;
+        padding: 86px 95px 78px 58px;
+        .tags {
+            margin: 0 -5px;
+            li {
+                margin: 0 5px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                text-transform: capitalize;
+                line-height: 30px;
+                padding: 0 17px;
+                border-radius: 30px;
+                background: #000;
+            }
+        }
+    }
+    .title {
+        border-bottom: 2px solid #000;
+        font-size: 48px;
+        line-height: 1.208em;
+        font-weight: 600;
+        margin: 33px 0 23px;
+        padding-bottom: 25px;
+        &:hover a {
+            text-decoration: underline;
+        }
+    }
+    p {
+        font-size: 20px;
+        line-height: 1.6em;
+        margin-bottom: 30px;
+    }
+    .icon {
+        width: 90px;
+        height: 90px;
+        padding: 10px;
+        background: #000;
+        &:hover {
+            background: $color-one;
+        }
+    }
+    &:hover {
+        .media-wrapper {
+          .hover-overlay {
+            opacity: 1;
+          }
+        }
+    }
+}
+
+
+// Portfolio Block Four
+.portfolio-block-four {  
+    .media-wrapper {
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        .hover-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left: 0;
+            background: rgba(#4A4744, $alpha: 0.7);
+            opacity: 0;
+            .expend {
+              width: 125px;
+              height: 125px;
+              background: $color-one;
+            }
+        }
+    }
+    &:hover {
+        .media-wrapper {
+          .hover-overlay {
+            opacity: 1;
+          }
+        }
+    }
+}
+// Project Details
+.project-details {
+    background: #FFFBF6;
+    .title-two span {
+        border-bottom: 4px solid #000;
+        display: inline-block;
+        padding-bottom: 10px;
+    }
+    .link-check-btn {
+        span {
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 1.1111em;
+            color: #000;
+            padding-right: 24px;
+        }
+        .icon {
+            width: 127px;
+            height: 127px;
+            background: #070707;
+            padding: 15px;
+            &:hover {
+                background: $color-four;
+            }
+        }
+    }
+    .project-info {
+        border: 1px solid #000;
+        background: #fff;
+        border-radius: 10px;
+        padding: 35px 95px 70px;
+        margin-top: 60px;
+        position: relative;
+        li {
+            width: 24%;
+            margin-top: 25px;
+            .icon {
+                width: 70px;
+                height: 70px;
+                border: 1px solid #000;
+            }
+            .text {
+                width: calc(100% - 70px);
+                padding-left: 18px;
+                h6 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    margin-bottom: 0;
+                }
+                span {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #787773;
+                }
+            }
+        }
+    }
+    .project-main-img {
+        margin-top: -10px;
+        margin-bottom: 40px;
+    }
+    h3 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.875em;
+        margin-bottom: 24px;
+    }
+    .project-2nd-img {
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    .block {
+        margin-bottom: 27px;
+        .icon {
+            width: 72px;
+            height: 72px;
+            border: 2px solid #000;
+            padding: 8px;
+            background: #fff;
+            margin-top: 5px;
+        }
+        .text {
+            width: calc(100% - 72px);
+            padding-left: 23px;
+            h4 {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 13px;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+    .strategy-result {
+        background: #000000;
+        border-radius: 5px;
+        padding: 24px 44px;
+        .score {
+            width: 135px;
+            height: 135px;
+            font-family: $font-Inter;
+            font-weight: 600;
+            font-size: 40px;
+            background: $color-one;
+            color: #000;
+        }
+        .text {
+            width: calc(100% - 200px);
+            h4 {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 13px;
+            }
+        }
+    }
+}

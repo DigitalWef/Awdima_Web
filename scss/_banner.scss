@@ -1,0 +1,548 @@
+// Hero Banner One
+.hero-banner-one {
+    background: $bg-one;
+    .slogan {
+        display: inline-block;
+        font-size: 32px;
+        color: #000;
+        background: $color-one;
+        padding: 5px 16px;
+        border-radius: 50px;
+    }
+    .hero-heading {
+        font-size: 128px;
+        font-weight: 800;
+        line-height: 1.0156em;
+        text-transform: uppercase;
+        margin: 40px 0 40px;
+        span {
+            display: inline-block;
+            position: relative;
+            color: $color-two;
+            img {
+                position: absolute;
+                top:-33%;
+                right: -25%;
+            }
+        }
+    }
+    .customer-count {
+        width: 212px;
+        height: 212px;
+        border: 1px solid #000;
+        background: $bg-two;
+        position: absolute;
+        z-index: 2;
+        left: 10%;
+        bottom: 12%;
+        .main-count {
+            font-size: 60px;
+            font-weight: 700;
+            color: #000;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.2em;
+            text-align: center;
+            color: rgba($color: #000000, $alpha: 0.7);
+            margin: -12px 0 0;
+        }
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 85%;
+        top:0;
+        left: calc(10% + 106px);
+        background: #000;
+        z-index: -2;
+    }
+    .screen_01 {
+        left: 3%;
+        top:23%;
+        border-radius: 80px;
+        max-width: 11%;
+        animation: jumpThree 5s infinite linear;
+    }
+    .screen_02 {
+        right: 5%;
+        bottom:18%;
+        border-radius: 100px;
+        max-width: 20%;
+        animation: jumpTwo 5s infinite linear;
+    }
+    .screen_03 {
+        top:20%;
+        right: 1%;
+        max-width: 16%;
+        animation: jumpThree 5s infinite linear;
+    }
+}
+// Hero Banner Two
+.hero-banner-two { 
+    background: $bg-two;
+    .hero-heading {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 1em;
+        text-transform: capitalize;
+        img {
+            display: inline-block;
+            border-radius: 40px;
+            width: 218px;
+            vertical-align: middle;
+            margin: -10px -3px 0 -4px;
+        }
+    }
+    .customer-count {
+        .main-count{
+            font-size: 64px;
+            color: #000;
+            font-weight: 700;
+            margin-right: 20px;
+        }
+    }
+    .screen_01 {
+        top:14%;
+        right: 4%;
+        max-width: 29%;
+    }
+    .screen_02 {
+        right: 33%;
+        top:52%;
+        max-width: 21%;
+    }
+    .screen_03 {
+        left: 5%;
+        top:20%;
+        animation: jumpThree 5s infinite linear;
+        max-width: 6%;
+    }
+    .screen_04 {
+        right: 36%;
+        top:13%;
+        animation: rotated 95s infinite linear;
+        max-width: 4%;
+    }
+    .screen_05 {
+        left: 7%;
+        bottom:33%;
+        animation: rotated 95s infinite linear;
+        max-width: 4%;
+    }
+}
+
+// Hero Banner Three
+.hero-banner-three { 
+    background: #F3FFF8;
+    overflow: hidden;
+    .tag {
+       font-size: 32px;
+       font-weight: 500;
+       color: #fff;
+       background: #000;
+       border-radius: 50px;
+       padding: 5px 30px;
+       &:before {
+        content: url(../images/shape/shape_19.svg);
+        position: absolute;
+        right: -30px;
+        top:-42px;
+        animation: jumpTwo 5s infinite linear;
+       }
+    }
+    .hero-heading {
+        font-family: $font-longsile;
+        font-size: 128px;
+        line-height: 0.9843em;
+        span {
+            color: $color-four;
+        }
+        img {
+            display: inline-block;
+        }
+        .bubble-img {
+            margin: -58px 0 0 -14px;
+            animation: jumpThree 5s infinite linear;
+        }
+        .img-meta {
+            border-radius: 50px;
+        }
+    }
+    .call-btn {
+        a {
+            font-size: 24px;
+            font-weight: 600;
+            color: #000;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .customer-count {
+        p {
+            display: inline-block;
+            font-size: 22px;
+            color: #000;
+            background: #fff;
+            border: 1px solid #000;
+            padding: 6px 21px;
+            span {
+                font-size: 40px;
+                font-weight: 700;
+            }
+            &::before {
+                content: url(../images/icon/icon_23.svg);
+                position: absolute;
+                right: -90px;
+                top:-4px;
+            }
+        }
+    }
+    .screen_01 {
+        right: 0;
+        top:0;
+        max-width: 50%;
+    }
+    .screen_02 {
+        left: 5%;
+        top:22%;
+        animation: jumpThree 5s infinite linear;
+        max-width: 6%;
+    }
+}
+
+// Hero Banner Four
+.hero-banner-four { 
+    background: #F1F0FF;
+    .round-img {
+        animation: rotated 95s infinite linear; 
+    }
+    .mark-box {
+        padding: 5px 20px 10px;
+        background: #fff;
+        border: 2px solid #000;
+        border-radius: 10px;
+        margin: 20px 0 50px;
+        strong {
+            display: block;
+            font-size: 40px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: -9px;
+        }
+    }
+    .hero-heading {
+        font-family: $font-longsile;
+        font-size: 128px;
+        line-height: 0.9843em;
+        color: #000;
+        text-transform: capitalize;
+        span {
+            display: inline-block;
+            position: relative;
+            img {
+                position: absolute;
+                top:-10px;
+                right: -74px;
+                animation: jumpThree 5s infinite linear;
+            }
+        }
+    }
+    .arrow_01 {
+        right: -88px;
+        bottom: -20px;
+    }
+    .shape_01 {
+        top:0;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 67%;
+    }
+    .shape_02 {
+        top:8%;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 54%;
+    }
+    .screen_01 {
+        left: 2%;
+        bottom: 5%;
+        max-width: 25%;
+        animation: jumpTwo 5s infinite linear;
+    }
+    .screen_02 {
+        right: 3%;
+        bottom: 7%;
+        max-width: 22%;
+        animation: jumpThree 5s infinite linear;
+    }
+}
+
+// Hero Banner Five
+.hero-banner-five { 
+    background: #101110;
+    .slogan {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .hero-heading {
+        font-family: $font-longsile;
+        font-size: 140px;
+        line-height: 1.0428em;
+        span {
+            position: relative;
+            &.color-text {
+                color: $color-five;
+            }
+            img {
+                position: absolute;
+                top:-32px;
+                right: -44px;
+                animation: jumpThree 5s infinite linear;
+            }
+        }
+    }
+    .arrow_01 {
+        right: -150px;
+        bottom: -23px;
+    }
+    .circle-one {
+        position: absolute;
+        left: -9%;
+        top:5%;
+        width: 423px;
+        height: 423px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(202, 255, 160, 0.1395) 0%, rgba(255, 255, 255, 0) 100%);
+    }
+    .screen_01 {
+        right: 14%;
+        top:20%;
+        max-width: 29%;
+    }
+    .screen_02 {
+        top:13%;
+        right: 3%;
+        max-width: 46%;
+        animation: jumpTwo 5s infinite linear;
+    }
+    .shape_01 {
+        top:0;
+        right: 0;
+        z-index: -3;
+        max-width: 39%;
+    }
+    .shape_02 {
+        top:9%;
+        right: 3%;
+        z-index: -4;
+        max-width: 50%;
+    }
+}
+
+// Hero Banner Six
+.hero-banner-six { 
+    background: #F2DFDF;
+    border-radius: 0 0 30px 30px;
+    .slogan {
+        background: #FFF5F5;
+        border-radius: 3px;
+        padding: 11px 17px;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 32px;
+        &:before {
+            content: url(../images/shape/shape_44.svg);
+            position: absolute;
+            left: -30px;
+            top:-30px;
+        }
+    }
+    .hero-heading {
+        font-size: 160px;
+        font-weight: 700;
+        line-height: 1em;
+        span {
+            font-family: $font-Inter;
+            position: relative;
+            display: inline-block;
+            z-index: 1;
+            &:before {
+                content: url(../images/shape/shape_47.svg);
+                position: absolute;
+                right: -55px;
+                top:-33px;
+                line-height: 25px;
+            }
+        }
+    }
+    .voice-btn {
+        font-size: 20px;
+        font-weight: 500;
+        color: #000;
+        padding: 19px 22px;
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 10px;
+        i {
+            font-size: 25px;
+            margin-right: 14px;
+        }
+        &:hover {
+            background: $color-four;
+            border-color: $color-four;
+            color: #fff;
+        }
+    }
+    .screen_01 {
+        top:17%;
+        right: 3%;
+        max-width: 54%;
+    }
+    .shape_01 {
+        top:2%;
+        right: 3%;
+        z-index: -2;
+        max-width: 54%;
+    }
+    .shape_02 {
+        top:17%;
+        left: 7%;
+        max-width: 38%;
+    }
+}
+// Fancy Banner One
+.fancy-banner-one {
+    background: #000;
+    h2 {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 1.0416em;
+        color: #fff;
+        text-transform: capitalize;
+        img {
+            display: inline-block;
+            margin: 0 -13px 0 -6px;
+            animation: rotated 95s infinite linear;
+        }
+    }
+    .shape_01 {
+        top:41%;
+        right: 9%;
+        max-width: 4%;
+    }
+    .shape_02 {
+        top:47%;
+        left: 10%;
+        max-width: 4%;
+    }
+}
+
+// Fancy Banner Two
+.fancy-banner-two {
+    background: #000;
+    h2 {
+        font-family: $font-longsile;
+        font-size: 96px;
+        line-height: 1.0416em;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    .btn-four:hover {
+        background: $color-two;
+        color: #000;
+    }
+    &.bg-two {
+        background: #F1F0FF;
+        h2 {
+            color: #000;
+        }
+    }
+}
+// Fancy Banner Three
+.fancy-banner-three { 
+    background: #101110;
+    .shape_01 {
+        top:16%;
+        left: 11%;
+        max-width: 3%;
+        animation: rotated 95s infinite linear;
+    }
+    .shape_02 {
+        bottom:19%;
+        right: 8%;
+        max-width: 6%;
+        animation: rotatedTwo 95s infinite linear;
+    }
+    .shape_03 {
+        bottom:13%;
+        left: 7%;
+        max-width: 3%;
+    }
+    &.version-two {
+        background: #F8EFEF;
+        h2 {
+            font-size: 68px;
+            font-weight: 600;
+        }
+    }
+}
+// Inner Banner One
+.inner-banner-one {
+    background: #FFFBF6;
+    border-bottom: 14px solid #000;
+    .breadcrumb-content {
+        background: $color-one;
+        border-radius: 50px;
+        padding: 6px 50px;
+        li {
+            font-size: 32px;
+            font-weight: 500;
+            margin: 0 7px;
+            color: #000;
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    h2 {
+        font-size: 96px;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin: 45px 0 0;
+    }
+    .shape_01 {
+        top:32%;
+        right: 18%;
+        max-width: 4%;
+    }
+    .shape_02 {
+        top:40%;
+        left: 7%;
+        max-width: 4%;
+    }
+}
+
+// Inner Banner Two
+.inner-banner-two { 
+    background: #000000;
+    h2 {
+        font-size: 96px;
+        font-weight: 800;
+        color: #fff;
+        text-transform: uppercase;
+        margin: 0;
+        display: inline-block;
+        position: relative;
+    }
+    .shape_01 {
+        top:-4px;
+        right: -130px;
+    }
+    .shape_02 {
+        top:50%;
+        left: 5%;
+        max-width: 4%;
+    }
+}

@@ -1,0 +1,79 @@
+.service-details {
+    .post-main-img {
+        margin-bottom: 40px;
+        border-radius: 5px;
+    }
+    .post-meta {
+        p {
+            font-size: 16px;
+            line-height: 1.875em;
+            margin-bottom: 36px;
+        }
+        h3 {
+            font-size: 28px;
+            font-weight: 600;
+            padding: 0 0 22px;
+            text-transform: capitalize;
+        }
+        h4 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 13px;
+        }
+        .block {
+            .icon {
+                width: 72px;
+                height: 72px;
+                border: 2px solid #000;
+                padding: 8px;
+            }
+            .text {
+                width: calc(100% - 72px);
+                padding-left: 23px;
+                p {
+                    margin: 0;
+                }
+            }
+        }
+        .work-strategy {
+            background: #232220;
+            border-radius: 5px 5px 0 0;
+            padding: 53px 42px;
+            h4 {
+                margin-bottom: 17px;
+            }
+            img {
+                border-radius: 10px;
+            }
+        }
+        .strategy-result {
+            padding: 23px 44px;
+            .score {
+                width: 135px;
+                height: 135px;
+                font-family: $font-Inter;
+                font-weight: 600;
+                font-size: 40px;
+
+            }
+            .text {
+                width: calc(100% - 200px);
+            }
+            &.bg-one {
+                background: $color-one;
+                .score {
+                    background: #1D1D1D;
+                    color: #fff;
+                }
+            }
+            &.bg-two {
+                background: #FBF2EF;
+                border-radius: 0 0 5px 5px;
+                .score {
+                    background: #FDABFF;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

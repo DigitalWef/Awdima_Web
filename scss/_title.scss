@@ -1,0 +1,38 @@
+// Title One
+.title-one {
+    .upper-title {
+        font-size: 20px;
+        font-weight: 500;
+        color: #5B5A56;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 60px;
+        line-height: 1.2em;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+}
+
+// Title Two
+.title-two { 
+    h2 {
+        font-family: $font-longsile;
+        font-size: 96px;
+        line-height: 1.0416em;
+        margin: 0;
+        text-transform: capitalize;
+    }
+}
+
+// Title Three
+.title-three { 
+    h2 {
+        font-family: $font-longsile;
+        font-size: 80px;
+        line-height: 1.05em;
+        margin: 0;
+        text-transform: capitalize;
+    }
+}

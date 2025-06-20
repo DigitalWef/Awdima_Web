@@ -1,0 +1,199 @@
+// Feedback Section One
+.feedback-section-one {
+    background: $color-three;
+    overflow: hidden;
+    .numb {
+        font-size: 96px;
+        font-weight: 700;
+        color: #000;
+        margin: 15px 0 -8px;
+    }
+    .slider-wrapper {
+        max-height: 980px;
+    }
+    .inner-wrapper {
+        position: relative;
+        transform: translateY(-14%);
+    }
+    .feedback-card-one {
+        margin: 10px 0;
+        opacity: 0.7;
+        @include transition(0.3s);
+    }
+    .slick-center {
+        .feedback-card-one {
+            opacity: 1;
+            background: url(../images/assets/bg_02.jpg) no-repeat center;
+            background-size: cover;
+        }
+    }
+    &.version-two {
+        .slick-center {
+            .feedback-card-one {
+                background: url(../images/assets/bg_07.jpg) no-repeat center;
+                background-size: cover;
+            }
+        }
+    }
+    .slider-arrows {
+        border-radius: 100px;
+        display: inline-block;
+        position: absolute;
+        right: 5%;
+        top:50%;
+        background: #000;
+        overflow: hidden;
+        transform: translateY(-50%);
+        li {
+            width: 93px;
+            height: 105px;
+            border-radius: 100px;
+            font-weight: bold;
+            color: #fff;
+            font-size: 40px;
+            cursor: pointer;
+            background: #000;
+            @include transition(0.3s);
+            &.active,&:hover {
+                background: #fff;
+                color: #000;
+            }
+        }
+    }
+    .shape_01 {
+        top:8%;
+        left: 40%;
+        max-width: 5%;
+        animation: jumpThree 5s infinite linear;
+    }
+    .shape_02 {
+        bottom:7%;
+        left: 6%;
+        max-width: 5%;
+        animation: jumpTwo 5s infinite linear;
+    }
+}
+// Feedback Block One
+.feedback-card-one {
+    background: url(../images/assets/bg_01.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 100px;
+    padding: 50px 60px 65px;
+    h4 {
+        font-size: 32px;
+        font-weight: 600;
+        color: #000;
+        margin: 0;
+    }
+    .icon {
+        width: 60px;
+        height: 60px;
+        background: #000;
+    }
+    blockquote {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.8181em;
+        color: #000;
+        margin: 30px 0 55px;
+    }
+    .client-info {
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        h6 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+        span {
+            font-size: 14px;
+        }
+        .rating li {
+            color: #FDBB12;
+            font-size: 22px;
+            margin-left: 8px;
+        }
+    }
+    &.version-two {
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 42px 43px 33px;
+        border: 1px solid transparent;
+        &.dark-style {
+            background: #281D2A;
+            color: #A8A8A8;
+            blockquote {
+                color: #A8A8A8;
+            }
+        }
+    }
+
+}
+
+// Feedback Block Two
+.feedback-card-two { 
+    background: #F5FFED;
+    border-radius: 10px;
+    padding: 70px 75px 70px;
+    position: relative;
+    z-index: 1;
+    .main-content {
+        width: 71%;
+        .rating li {
+            color: #FDBB12;
+            font-size: 22px;
+            margin-left: 8px;
+        }
+        blockquote {
+            font-family: $font-Inter;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 1.388em;
+            color: #000;
+            margin: 42px 0 44px;
+        }
+        h6 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: -4px;
+        }
+        span {
+            font-size: 14px;
+        }
+    }
+    .main-img {
+        position: absolute;
+        bottom: 0;
+        right: 3%;
+        z-index: -1;
+        max-width: 33%;
+    }
+    .icon {
+        position: absolute;
+        right: 2%;
+        top:16%;
+        z-index: -2;
+        max-width: 14%;
+    }
+}
+// Feedback Section Two
+.feedback-section-two {
+    .main-wrapper {
+        max-width: 1682px;
+        padding: 0 12px;
+    }
+}
+.slick-center {
+    .feedback-card-one.version-two {
+        border: 1px solid #000;
+    }
+}
+// Feedback Section Three
+.feedback-section-three { 
+    .bg-wrapper {
+        background: #101110;
+        border-radius: 0 0 30px 30px;
+    }
+}

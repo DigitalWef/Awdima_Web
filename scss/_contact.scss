@@ -1,0 +1,30 @@
+
+// Contact Form
+.contact-section-one {
+    .wrapper {
+        background: #F2F2F2;
+    }
+    .shape_02 {
+        right: 8%;
+        top:13%;
+        max-width: 3%;
+    }
+    .shape_01 {
+        left: 7%;
+        top:14%;
+        max-width: 4%;
+    }
+}
+#contact-form {
+    .help-block {
+        position: absolute;
+        left: 0;
+        bottom: -18px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #ff4d44;
+        ul {
+            margin: 0;
+        }
+    }
+}
